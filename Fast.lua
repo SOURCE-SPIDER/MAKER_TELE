@@ -413,7 +413,7 @@ if text and Redis:get(Fast..data.sender_id.user_id.."app:id2") then
 local UserName = text:match("(.*)")
 if UserName then
 Redis:set(Fast..data.sender_id.user_id.."api:hash",UserName)
-return send(data.chat_id,data.id,"⎊ تم حفظ Api_hash \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @UU2xbot")  
+return send(data.chat_id,data.id,"⎊ تم حفظ Api_hash \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @SESSION1bot")  
 else
 send(data.chat_id,data.id,"⎊ تأكد من App_id  ! ")  
 end
@@ -448,7 +448,7 @@ Redis:set(Fast..data.sender_id.user_id.."dev:user",UserName)
 Redis:set(Fast..data.sender_id.user_id.."dev:id",UserId_Info.id)
 Redis:set(Fast..data.sender_id.user_id.."app:id",UserName)
 Redis:set(Fast..data.sender_id.user_id.."api:hash",UserName)
-return send(data.chat_id,data.id,"⎊ تم حفظ المطور الاساسي \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @UU2xbot")
+return send(data.chat_id,data.id,"⎊ تم حفظ المطور الاساسي \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @SESSION1bot")
 else
 send(data.chat_id,data.id,"⎊ اليوزر ليس لحساب شخصي تأكد منه ","md",true)  
 end
@@ -819,7 +819,7 @@ if text and Redis:get(Fast..data.sender_id.user_id.."app:id2") then
 local UserName = text:match("(.*)")
 if UserName then
 Redis:set(Fast..data.sender_id.user_id.."api:hash",UserName)
-return send(data.chat_id,data.id,"⎊ تم حفظ Api_hash \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @UU2xbot")  
+return send(data.chat_id,data.id,"⎊ تم حفظ Api_hash \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @SESSION1bot")  
 else
 send(data.chat_id,data.id,"⎊ تأكد من App_id  ! ")  
 end
@@ -854,7 +854,7 @@ Redis:set(Fast..data.sender_id.user_id.."dev:user",UserName)
 Redis:set(Fast..data.sender_id.user_id.."app:id",UserName)
 Redis:set(Fast..data.sender_id.user_id.."dev:id",UserId_Info.id)
 Redis:set(Fast..data.sender_id.user_id.."api:hash",UserName)
-return send(data.chat_id,data.id,"⎊ تم حفظ المطور الاساسي \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @UU2xbot")  
+return send(data.chat_id,data.id,"⎊ تم حفظ المطور الاساسي \n⎊ ارسل الان ال جلسه البايروجرام \n⎊ احصل عليه من هنا @SESSION1bot")  
 else
 send(data.chat_id,data.id,"⎊ اليوزر ليس لحساب شخصي تأكد منه ","md",true)  
 end
